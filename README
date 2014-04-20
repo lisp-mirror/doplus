@@ -11,7 +11,7 @@ in the same directory as this README file.
 
 --- Dependencies ---
 
-doplus depends only on parse-declarations and Eos (the latter only if you want
+doplus depends only on parse-declarations and FiveAM (the latter only if you want
 to run the test suite).
 
 --- Tests ---
@@ -28,5 +28,5 @@ under a different license.
 
 --- Further information ---
 
-The home of doplus is <http://code.google.com/p/tapulli/wiki/doplus>. There you can find
+The home of doplus is <http://code.google.com/p/doplus>. There you can find
 in-depth documentation, access the code repository and checkout the latest version.
