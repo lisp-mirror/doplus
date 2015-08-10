@@ -1,32 +1,23 @@
+# doplus - an iteration macro for Common Lisp #
+
 This is DO+ (doplus), the high-level, extensible iteration construct for Common Lisp.
 
-By design, doplus has a reasonably simple implementation, that in particular doesn't
-make use of a code walker, allowing users to freely mix doplus loops with macrolets
-and every other kind of advanced Lisp construct.
+By design, doplus has a reasonably simple implementation, that in particular doesn't make use of a code walker, allowing users to freely mix doplus loops with macrolets and every other kind of advanced Lisp construct.
 
---- Installation ---
+## Installation and dependencies ##
 
-You can load doplus with ASDF. The system name is :doplus and the .asd file resides
-in the same directory as this README file.
+The preferred way to install doplus is by using Quicklisp.
 
---- Dependencies ---
+doplus itself depends only on parse-declarations. FiveAM is used for the test suite.
 
-doplus depends only on parse-declarations and FiveAM (the latter only if you want
-to run the test suite).
+## Tests ##
 
---- Tests ---
+To run the test suite, use ASDF.
 
-To run the test suite, load the system :doplus-tests after loading :doplus itself.
-To rerun the test suite after :doplus-tests has been loaded, evaluate the form
-(doplus-tests:run-all-tests).
+## License ##
 
---- License ---
+doplus is distributed under the GPLv3. See the file COPYING for details. If you'd like a different license arrangement, please contact me. I'm very open about providing friendlier licenses to individuals and companies that I trust, but by default I won't allow complete strangers to profit from my code without giving anything back.
 
-doplus is distributed under the GPLv3. See the file COPYING for details.
-Please contact the author if you have questions about licensing or if you want to use doplus
-under a different license.
+## Further information ##
 
---- Further information ---
-
-The home of doplus is <http://code.google.com/p/doplus>. There you can find
-in-depth documentation, access the code repository and checkout the latest version.
+The home of doplus is <https://bitbucket.org/alessiostalla/doplus>. There you can find in-depth documentation, access the code repository and checkout the latest version.
